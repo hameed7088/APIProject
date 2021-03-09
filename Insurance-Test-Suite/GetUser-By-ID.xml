@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="19ce3b48-d238-4e15-a241-8cd0a4b8e1d7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="GetUser By ID" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="19ce3b48-d238-4e15-a241-8cd0a4b8e1d7fileName">GetUser-By-ID</con:setting></con:settings><con:testStep type="restrequest" name="REST Request" id="52ad91d6-e634-4167-998d-698f110fd93b"><con:settings/><con:config service="https://www.test-insurance.com" methodName="PaymentRequest" resourcePath="/api/v1/payment" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="64d70bd2-b2d1-4c31-bbea-d765321a4bf9" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPerson": {
+    "email": "hameed0014@live.com",
+    "title": "Mr",
+    "firstName": "Hameed",
+    "lastName": "Ahmadzai",
+    "gender": "Male",
+    "maritalStatus": "Married",
+    "employmentStatus": "Employed",
+    "dateOfBirth": "1999-01-01",
+    "languagePref": "en"
+  },
+  "primaryPersonMailingAddress": {
+    "addressType": "124 apple rd",
+    "addressLine1": "",
+    "city": "Lynchburg",
+    "state": "VA",
+    "postalCode": "24501",
+    "countryCode": "001"
+  },
+  "primaryPersonPhone": {
+    "phoneNumber": "4349444444",
+    "phoneExtension": "434",
+    "phoneTime": "10",
+    "phoneType": "Cell"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/payment</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

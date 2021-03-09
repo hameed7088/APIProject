@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="30a473d0-6c51-46ff-a12a-ef615139ce0a" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Create Duplicate User Negative" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="30a473d0-6c51-46ff-a12a-ef615139ce0afileName">Create-Duplicate-User-Negative</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>

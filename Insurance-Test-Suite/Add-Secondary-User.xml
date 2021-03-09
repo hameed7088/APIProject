@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="a58836f6-25e7-4b5f-8f20-2ce1c0d3e13c" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Add Secondary User" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="a58836f6-25e7-4b5f-8f20-2ce1c0d3e13cfileName">Add-Secondary-User</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>

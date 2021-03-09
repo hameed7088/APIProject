@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="be872e17-a803-4234-9981-7f252c7d7d33" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Update Scondary User" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="be872e17-a803-4234-9981-7f252c7d7d33fileName">Update-Scondary-User</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>
